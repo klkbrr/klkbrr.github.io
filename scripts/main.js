@@ -29,7 +29,7 @@ if (!localStorage.getItem('nombre')) {
 }
 else {
     let nombreAlmacenado = localStorage.getItem('nombre');
-    miTitulo.textContent = 'Mozilla es genial,' + nombreAlmacenado;
+    miTitulo.textContent = 'Este pana es un mamabicho:,' + nombreAlmacenado;
 }
 
 miBoton.onclick = function() {
