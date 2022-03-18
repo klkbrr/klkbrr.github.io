@@ -29,7 +29,7 @@ if (!localStorage.getItem('nombre')) {
 }
 else {
     let nombreAlmacenado = localStorage.getItem('nombre');
-    miTitulo.textContent = 'Este pana es un mamabicho:,' + nombreAlmacenado;
+    miTitulo.textContent = 'Este pana es un mamabicho:' + nombreAlmacenado;
 }
 
 miBoton.onclick = function() {
