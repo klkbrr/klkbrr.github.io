@@ -19,7 +19,7 @@ function estableceNombreUsuario() {
       estableceNombreUsuario();
     } else {
       localStorage.setItem('nombre', miNombre);
-      miTitulo.innerHTML = 'Este pana es un Mamabicho:, ' + miNombre;
+      miTitulo.innerHTML = 'Este pana es un Mamabicho:' + miNombre;
     }
   }
 
